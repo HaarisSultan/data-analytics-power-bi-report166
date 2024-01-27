@@ -37,9 +37,15 @@ The primary aim of this project is to provide hands-on experience ingesting data
 
 #### Step 1 - Download Power BI:
 
-In order to open a Power BI file, it must be installed locally. If you are using Windows, download and install Power BI Desktop for Windows from the official Microsoft website, and proceed to **Step 2**. 
+In order to open a Power BI file, the Power BI application must be installed locally. 
 
-If using a Mac or Linux, you must create an Azure Virtual Machine (VM) instance running Windows. Once  provisioned, connect to your new VM from your local machine using the Remote Desktop Protocol (RDP) from within the Microsoft Remote Desktop application. Proceed to download and install Power BI Desktop for Windows from the official Microsoft website.
+- If using **Windows**, download and install _Power BI Desktop for Windows_ from the official Microsoft website, and proceed to **Step 2**. 
+
+- If using a **Mac or Linux**, you must create an _Azure Virtual Machine (VM)_ instance, running Windows. 
+
+- Once provisioned, connect to your new VM from your local machine using the _Remote Desktop Protocol (RDP)_ from within the Microsoft Remote Desktop application. 
+
+- Proceed to download and install **Power BI Desktop for Windows** from the official Microsoft website.
 
 #### Step 2 - Clone the project:
 
@@ -53,10 +59,63 @@ If using a Mac or Linux, you must create an Azure Virtual Machine (VM) instance 
 
 <img width="461" alt="manual_git_clone" src="https://github.com/HaarisSultan/data-analytics-power-bi-report166/assets/29152484/18b32b9e-4815-4477-bb6c-4154495a4431">
 
-Once the project is on your machine locally you can open it and examine the data or interact with the projects. 
+
+You are now ready to use Power BI to interact with the data and the report. 
 
 ## Usage Instructions
 
-## File Structure 
+Open the `PowerBI Project.pbix` file. 
+
+Navigate to report view by selecting the icon of a bar chart:
+
+<img width="350" alt="report_view_icon" src="https://github.com/HaarisSultan/data-analytics-power-bi-report166/assets/29152484/4a48d6ca-6057-4bd6-abe3-beed0e84a7dc">
+
+
+On the bottom left of the screen you will see the following icons:
+
+![icons_nav_horizontal](https://github.com/HaarisSultan/data-analytics-power-bi-report166/assets/29152484/2413e77a-0b4d-4fe3-8618-88437cd90fcc)
+
+Navigate your way between the different report pages by holding `Ctrl (⌃ on mac)` and clicking the different icons. 
+
+## File Structure
+
+#### GitHub File Structure 
+```.
+├── SQL/
+│   ├── question_1.csv
+|   ├── question_1.sql
+│   ├── question_2.csv
+|   ├── question_2.sql
+...
+│   ├── question_5.csv
+│   └── question_5.sql
+├── PowerBI Project.pbix
+└── README.md
+```
+
+#### Power BI Report Structure 
+```
+PowerBI Project/ 
+├── Executive Summary
+├── Customer Detail
+├── Product Detail
+├── Stores Map
+├── Stores Drillthrough
+└── Stores Tooltip
+```
 
 ## License Information
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+Copyright (c) 2024 Haaris Sultan
+
+*Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:*
+
+*The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.*
