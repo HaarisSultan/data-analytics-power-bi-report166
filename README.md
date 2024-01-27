@@ -35,6 +35,26 @@ The primary aim of this project is to provide hands-on experience ingesting data
 
 ## Installation Instructions 
 
+#### Step 1 - Download Power BI:
+
+In order to open a Power BI file, it must be installed locally. If you are using Windows, download and install Power BI Desktop for Windows from the official Microsoft website, and proceed to **Step 2**. 
+
+If using a Mac or Linux, you must create an Azure Virtual Machine (VM) instance running Windows. Once  provisioned, connect to your new VM from your local machine using the Remote Desktop Protocol (RDP) from within the Microsoft Remote Desktop application. Proceed to download and install Power BI Desktop for Windows from the official Microsoft website.
+
+#### Step 2 - Clone the project:
+
+**If git is installed:**
+
+- Open the Command Prompt and type `git clone https://github.com/HaarisSultan/data-analytics-power-bi-report166.git`
+
+**If git is _not_ installed:**
+
+- Clone the repository manually via GitHub:
+
+<img width="461" alt="manual_git_clone" src="https://github.com/HaarisSultan/data-analytics-power-bi-report166/assets/29152484/18b32b9e-4815-4477-bb6c-4154495a4431">
+
+Once the project is on your machine locally you can open it and examine the data or interact with the projects. 
+
 ## Usage Instructions
 
 ## File Structure 
