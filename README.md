@@ -1,13 +1,15 @@
 # Power BI Data Analytics Report 
 
-# Table of contents 
+## Table of contents 
 1. [Project description](#project-description)
-1. [Requirements](#requirements)
-1. [Installation & Usage](#installation-and-usage)
+1. [Installation Instructions](#installation-instructions)
+1. [Usage Instructions](#usage-instructions)
 1. [File structure](#file-structure)
-1. [License](#license)
+1. [License Information](#license-information)
 
-# Project description
+## Project description
+
+This report offers analytical insights from retail data, displaying end-to-end technical capabilities ranging from cloud ingestion to insights delivery. Key areas include aggregating sales data from heterogeneous systems into Azure SQL, structuring star schema models for analytical performance, and providing intuitive analysis with Power BI dashboards.
 
 ... 
 
@@ -15,10 +17,16 @@ In the first part of the project, I import data into Power BI in several ways: b
 
 The second part of the project drew attention to the structure of the data. I implemented relationships between table's in the model view, organising them into a star schema centered around the Orders table. I made use of DAX to create a number of measures related to profit and revenue. I also generated a Date's table to help any analysis related to date/time information. 
 
-# Requirements 
+### Project Aim:
+-
+- 
+### What I Learned:
+-
+-
+## Installation Instructions 
 
-# Usage 
+## Usage Instructions
 
-# File structure 
+## File Structure 
 
-# License
+## License Information
